@@ -1,2 +1,94 @@
-#container{
-    background-color: brown;
+.header{
+    background-color: white;
+    display: flex;
+    justify-content:space-between ;
+    border:1px solid black;
+    animation-name: example;
+    animation-duration: 2s;
+    border-radius: 20px;
+    margin-left: 4px;
+    margin-right: 6px;
+}
+.logo{
+    width:180px;
+    height:140px;
+    padding-top: 4px;
+    border-radius: 15px;
+    margin:10px;
+}
+.nav-items{
+    padding: 0px 20px;
+}
+
+.nav-items> ul{
+    font: size 140px; ;
+    display: flex;
+    padding: 0px 20px;
+    list-style: none;
+}
+ 
+
+.nav-items> ul> li{
+    padding:10px ;
+    margin:10px ;
+
+}
+.res-container{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.res-card{
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+    width: 230px;
+    
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+    border-radius: 15px;
+    width: 100%;
+    height: 136px;
+}
+
+@keyframes example {
+    from {background-color: rgb(70, 67, 67);}
+    to {background-color: rgb(237, 214, 170);}
+  }
+  .company-name
+  {
+    width:400px;
+    height:150px;
+    padding-top: 9px;
+    align-self: center;
+    left: 8px;
+  }
+  .filter-btn{
+    margin: 10px;
+    cursor: pointer;
+  }
+   .Shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+
+  .Shimmer-card{
+    margin:20px ;
+    width:200px ;
+    height:400px ;
+    background-color: gray;
+  }
+  .login{
+    padding: 0 20px ;
+    cursor: pointer;
+  }
+   .filter{
+    display: flex;
+  }
